@@ -30,6 +30,14 @@
       <div class="country">
         <div class="name">Loading...</div>
         <div class="change-country">Change</div>
+        <div class="search-country hide">
+          <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search country">
+            <img class="close" src="img/close.svg" alt="">
+          </div>
+          <div class="country-list">
+          </div>
+        </div>
       </div>
       <div class="total-cases">
         <div class="title">Total Cases</div>
@@ -47,10 +55,19 @@
         <div class="new-value">+0</div>
       </div>
     </div>
+    <div class="chart">
+      <canvas id="axes_line_chart"></canvas>
+    </div>
   </div>
 </main>
 
-
+<footer>
+  <div class="footer-container">
+    <div class="copyright">
+      <p>copyright 2020 wong</p>
+    </div>
+  </div>
+</footer>
 
 
   <script src="js/app.js" charset="utf-8"></script>
