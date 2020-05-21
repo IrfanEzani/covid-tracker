@@ -81,5 +81,5 @@ function updateStats(){
 
 
 deaths_element.innerHTML = last_entry.total_deaths;
-new_deaths_element.innerHTML = `+${last_entry.new_deaths}`;
+new_deaths_element.innerHTML = `+${last_entry.new_deaths || 0}`;
 }
